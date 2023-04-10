@@ -1,0 +1,11 @@
+.head{
+    color:white;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 20px;
+}
+.head img{
+    border-radius: 20px;
+    height: 100px;
+}

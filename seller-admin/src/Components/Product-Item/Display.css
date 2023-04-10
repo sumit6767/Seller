@@ -1,0 +1,11 @@
+.display-item{
+    background-color: rgb(222, 53, 53);
+    color:white;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    font-size:1.2rem;
+    margin:10px
+}

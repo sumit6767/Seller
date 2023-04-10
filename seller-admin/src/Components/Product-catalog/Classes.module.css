@@ -1,0 +1,39 @@
+.input{
+    margin:10px;
+    width:100%
+}
+.input label{
+    width: 90%;
+    display: block;
+}
+
+.input input{
+    margin-top:5px;
+    width:95%;
+    padding: 7px;
+    border-radius: 10px;
+    border:1px dashed red
+}
+.select{
+width: 96%;
+margin: 10px;
+padding: 10px;
+color:red
+}
+.button{
+    border:none;
+    outline: none;
+    color: rgb(0, 162, 140);
+    background-color:white;
+    padding: 10px;
+    border:3px solid rgb(0, 162, 140);
+    font-weight: bolder;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.button:hover{
+    background-color:rgb(0, 162, 140); 
+    color:white;
+}

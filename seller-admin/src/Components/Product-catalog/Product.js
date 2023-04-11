@@ -23,7 +23,7 @@ function Product(props){
         setDetail({productID:"",sellingPrice:"",productName:"",category:"Electronics"})
     }
     return(
-        <form className="form" onSubmit={itemSubmit}>
+        <form className={style.form} onSubmit={itemSubmit}>
             <Input className={style.input} id="id" name="Product ID" type="number" value={itemDetail.productID} onChange={changeId}/>
             <Input className={style.input} id="price" type="text" name="Selling Price" value={itemDetail.sellingPrice} onChange={changePrice}/>
             <Input className={style.input} id="name" type="text" name="Product Name" value={itemDetail.productName} onChange={changeName}/>

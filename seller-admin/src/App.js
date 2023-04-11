@@ -33,7 +33,7 @@ function App() {
     <Auth.Provider value={{onDelete:deleteItem}}>
     <Header/>
     <Product formSubmit={formSubmit}/>
-    <ProductItem />
+    <ProductItem formSubmit={formSubmit}/>
     </Auth.Provider>
   );
 }

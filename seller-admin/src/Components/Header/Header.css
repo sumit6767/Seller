@@ -9,3 +9,12 @@
     border-radius: 20px;
     height: 100px;
 }
+.head h3{
+    display: inline;
+    position: absolute;
+    left: 50%;
+    top: 2.6rem;
+    margin: 0;
+    font-size: 1.5rem;
+    transform: translateX(-50%);
+}

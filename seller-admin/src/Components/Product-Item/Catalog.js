@@ -5,9 +5,9 @@ import './Catalog.css'
 const Catalog = (props)=>{
     const filteredData = [];
     
-    for(let i = 1; i <= localStorage.length;i++){
+    for(let i of Object.keys(localStorage)){
         let obj = JSON.parse(localStorage.getItem(i+""))
-        if(obj.category===props.type){
+        if(obj?.category===props.type){
             filteredData.push({...obj,i:i+""})
         }
     }

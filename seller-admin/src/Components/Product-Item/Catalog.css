@@ -1,7 +1,12 @@
 .catalog{
     margin:10px;
+    margin-right: 0px;
     background-color: rgba(23, 13, 13, 0.986);
     color:white;
     padding: 10px;
     border-radius: 10px;
+}
+.catalog-item{
+    float: left;
+    width: 50%;
 }
